@@ -287,16 +287,21 @@ Media query to make it responsive
  /* Extra Video section */
 
 .video-container{
-    display:grid;
-    grid-template-columns: repeat(1,1fr);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
     margin:0;
 
 } 
 
 .video{
-    width:90%;
-    margin:20px;
+    width:250px;
+    
+}
+.video-box{
+    width:300px;
 }
 
 /* Extra sign up section */
