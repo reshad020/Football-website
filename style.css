@@ -168,6 +168,32 @@ main{
     width:250px;
 }
 
+/* sign up extra section style */
+
+.sign-up-extra-section{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text-box{
+    width:200px;
+    height:30px;
+    background-color: lightpink;
+    margin-bottom:20px;
+}
+.text-box:focus{
+    background-color: lightyellow;
+    
+}
+.sign-up-heading{
+    font-size: 40px;
+    color:limegreen;
+    text-align: center;
+    margin:60px 0px;
+}
+
+
 /* Footer section style */
 
 
@@ -265,4 +291,11 @@ Media query to make it responsive
     height:63px;
 
 }
+.sign-up-heading{
+    font-size: 20px;
+    color:limegreen;
+    text-align: center;
+    margin:60px 0px;
+}
+
 }
